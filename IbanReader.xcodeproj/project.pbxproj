@@ -25,6 +25,8 @@
 		2083DD192BDAC89A002B647B /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD182BDAC89A002B647B /* ScannerView.swift */; };
 		2083DD1C2BDAC902002B647B /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD1B2BDAC902002B647B /* RoundedView.swift */; };
 		2083DD1E2BDAC927002B647B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD1D2BDAC927002B647B /* View+Extensions.swift */; };
+		2083DD212BDAC9B4002B647B /* NoPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD202BDAC9B4002B647B /* NoPermissionView.swift */; };
+		2083DD232BDAC9D3002B647B /* NoPermissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD222BDAC9D3002B647B /* NoPermissionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		2083DD182BDAC89A002B647B /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		2083DD1B2BDAC902002B647B /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		2083DD1D2BDAC927002B647B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		2083DD202BDAC9B4002B647B /* NoPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPermissionView.swift; sourceTree = "<group>"; };
+		2083DD222BDAC9D3002B647B /* NoPermissionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPermissionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		2083DCD82BDAC187002B647B /* IbanReader */ = {
 			isa = PBXGroup;
 			children = (
+				2083DD1F2BDAC99F002B647B /* NoPermission */,
 				2083DD1A2BDAC8E8002B647B /* GenericViews */,
 				2083DD0C2BDAC44C002B647B /* GenericTextScanner */,
 				2083DD052BDAC32A002B647B /* Extensions */,
@@ -200,6 +205,15 @@
 				2083DD1B2BDAC902002B647B /* RoundedView.swift */,
 			);
 			path = GenericViews;
+			sourceTree = "<group>";
+		};
+		2083DD1F2BDAC99F002B647B /* NoPermission */ = {
+			isa = PBXGroup;
+			children = (
+				2083DD202BDAC9B4002B647B /* NoPermissionView.swift */,
+				2083DD222BDAC9D3002B647B /* NoPermissionViewModel.swift */,
+			);
+			path = NoPermission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,10 +352,12 @@
 				2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */,
 				2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */,
 				2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */,
+				2083DD212BDAC9B4002B647B /* NoPermissionView.swift in Sources */,
 				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
 				2083DD132BDAC7DE002B647B /* ScannerViewProtocol.swift in Sources */,
 				2083DD172BDAC824002B647B /* ScannerViewController.swift in Sources */,
 				2083DD152BDAC800002B647B /* ScannerViewModel.swift in Sources */,
+				2083DD232BDAC9D3002B647B /* NoPermissionViewModel.swift in Sources */,
 				2083DD1C2BDAC902002B647B /* RoundedView.swift in Sources */,
 				2083DD1E2BDAC927002B647B /* View+Extensions.swift in Sources */,
 				2083DD192BDAC89A002B647B /* ScannerView.swift in Sources */,
