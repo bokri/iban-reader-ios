@@ -11,12 +11,80 @@
         }
       }
     },
+    "add_beneficiary" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un bénéficiaire"
+          }
+        }
+      }
+    },
+    "camera_permissions_not_granted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les permissions de la caméra n'étaient pas accordés"
+          }
+        }
+      }
+    },
+    "go_to_settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aller aux paramètres"
+          }
+        }
+      }
+    },
+    "Hello, world!" : {
+
+    },
     "help" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aide"
+          }
+        }
+      }
+    },
+    "iban_error" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saisie erronée"
+          }
+        }
+      }
+    },
+    "iban_placeholder" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FR76 XXXX"
+          }
+        }
+      }
+    },
+    "iban_scanner_title" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placez votre IBAN dans le cadre pour le scanner"
           }
         }
       }
@@ -31,22 +99,89 @@
         }
       }
     },
+    "restart_cta" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommencer"
+          }
+        }
+      }
+    },
+    "scan_cta" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanner"
+          }
+        }
+      }
+    },
+    "scan_import_iban_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scannez, importez ou saisissez l'IBAN"
+          }
+        }
+      }
+    },
+    "scan_your_iban" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scanner votre IBAN"
+          }
+        }
+      }
+    },
+    "scanned_iban_subtitle" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensez à le vérifier avant de le valider : "
+          }
+        }
+      }
+    },
+    "scanned_iban_title" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'IBAN du bénéficiare a été scanné"
+          }
+        }
+      }
+    },
+    "validate_cta" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valider"
+          }
+        }
+      }
+    },
     "wire" : {
       "localizations" : {
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Virements"
-          }
-        }
-      }
-    },
-    "iban_scanner_title" : {
-      "localizations" : {
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Placez votre IBAN dans le cadre pour le scanner"
           }
         }
       }

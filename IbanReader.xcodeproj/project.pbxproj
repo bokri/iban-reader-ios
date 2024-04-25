@@ -19,6 +19,9 @@
 		2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */; };
 		2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD0E2BDAC4EE002B647B /* GuidanceOverlayView.swift */; };
 		2083DD112BDAC615002B647B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2083DD102BDAC615002B647B /* Localizable.xcstrings */; };
+		2083DD132BDAC7DE002B647B /* ScannerViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD122BDAC7DE002B647B /* ScannerViewProtocol.swift */; };
+		2083DD152BDAC800002B647B /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD142BDAC800002B647B /* ScannerViewModel.swift */; };
+		2083DD172BDAC824002B647B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD162BDAC824002B647B /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataScannerViewController+Extensions.swift"; sourceTree = "<group>"; };
 		2083DD0E2BDAC4EE002B647B /* GuidanceOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceOverlayView.swift; sourceTree = "<group>"; };
 		2083DD102BDAC615002B647B /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2083DD122BDAC7DE002B647B /* ScannerViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewProtocol.swift; sourceTree = "<group>"; };
+		2083DD142BDAC800002B647B /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		2083DD162BDAC824002B647B /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				2083DD0D2BDAC461002B647B /* Views */,
+				2083DD122BDAC7DE002B647B /* ScannerViewProtocol.swift */,
+				2083DD142BDAC800002B647B /* ScannerViewModel.swift */,
+				2083DD162BDAC824002B647B /* ScannerViewController.swift */,
 			);
 			path = GenericTextScanner;
 			sourceTree = "<group>";
@@ -313,6 +322,9 @@
 				2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */,
 				2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */,
 				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
+				2083DD132BDAC7DE002B647B /* ScannerViewProtocol.swift in Sources */,
+				2083DD172BDAC824002B647B /* ScannerViewController.swift in Sources */,
+				2083DD152BDAC800002B647B /* ScannerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,10 +507,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -534,10 +547,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
