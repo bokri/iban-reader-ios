@@ -13,8 +13,8 @@ IBAN Reader App is a SwiftUI application that allows users to scan and recognize
 
 ## Screenshots
 
-![Screenshot 1](Screenshots/1.PNG) ![Screenshot 2](Screenshots/2.PNG) ![Screenshot 3](Screenshots/3.PNG)  
-![Screenshot 4](Screenshots/4.PNG) ![Screenshot 5](Screenshots/5.PNG) ![Screenshot 6](Screenshots/6.PNG)
+<img src="Screenshots/1.PNG" width="200" height="400"> <img src="Screenshots/2.PNG" width="200" height="400"> <img src="Screenshots/3.PNG" width="200" height="400">  
+<img src="Screenshots/4.PNG" width="200" height="400"> <img src="Screenshots/5.PNG" width="200" height="400"> <img src="Screenshots/6.PNG" width="200" height="400">
 
 
 ## Installation
