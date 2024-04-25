@@ -95,9 +95,9 @@
 		2083DCD82BDAC187002B647B /* IbanReader */ = {
 			isa = PBXGroup;
 			children = (
+				2083DD042BDAC241002B647B /* Assets */,
 				2083DCD92BDAC187002B647B /* IbanReaderApp.swift */,
 				2083DCDB2BDAC187002B647B /* ContentView.swift */,
-				2083DCDD2BDAC188002B647B /* Assets.xcassets */,
 				2083DCDF2BDAC188002B647B /* IbanReader.entitlements */,
 				2083DCE02BDAC188002B647B /* Preview Content */,
 			);
@@ -127,6 +127,14 @@
 				2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */,
 			);
 			path = IbanReaderUITests;
+			sourceTree = "<group>";
+		};
+		2083DD042BDAC241002B647B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCDD2BDAC188002B647B /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
