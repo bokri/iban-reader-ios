@@ -15,6 +15,8 @@
 		2083DCF62BDAC188002B647B /* IbanReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCF52BDAC188002B647B /* IbanReaderUITests.swift */; };
 		2083DCF82BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */; };
 		2083DD072BDAC339002B647B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD062BDAC339002B647B /* String+Extensions.swift */; };
+		2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD082BDAC381002B647B /* UIView+Extensions.swift */; };
+		2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2083DCF52BDAC188002B647B /* IbanReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderUITests.swift; sourceTree = "<group>"; };
 		2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2083DD062BDAC339002B647B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2083DD082BDAC381002B647B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataScannerViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				2083DD062BDAC339002B647B /* String+Extensions.swift */,
+				2083DD082BDAC381002B647B /* UIView+Extensions.swift */,
+				2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 			files = (
 				2083DCDC2BDAC187002B647B /* ContentView.swift in Sources */,
 				2083DD072BDAC339002B647B /* String+Extensions.swift in Sources */,
+				2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */,
+				2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */,
 				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
