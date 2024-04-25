@@ -30,6 +30,7 @@
 		2083DD252BDACA40002B647B /* IbanBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD242BDACA40002B647B /* IbanBottomSheet.swift */; };
 		2083DD282BDACAC8002B647B /* IbanScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD272BDACAC8002B647B /* IbanScannerView.swift */; };
 		2083DD2A2BDACAE2002B647B /* IbanScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD292BDACAE2002B647B /* IbanScannerViewModel.swift */; };
+		2083DD2C2BDACB80002B647B /* IbanTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD2B2BDACB80002B647B /* IbanTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		2083DD242BDACA40002B647B /* IbanBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanBottomSheet.swift; sourceTree = "<group>"; };
 		2083DD272BDACAC8002B647B /* IbanScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerView.swift; sourceTree = "<group>"; };
 		2083DD292BDACAE2002B647B /* IbanScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerViewModel.swift; sourceTree = "<group>"; };
+		2083DD2B2BDACB80002B647B /* IbanTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			children = (
 				2083DD1B2BDAC902002B647B /* RoundedView.swift */,
 				2083DD242BDACA40002B647B /* IbanBottomSheet.swift */,
+				2083DD2B2BDACB80002B647B /* IbanTextField.swift */,
 			);
 			path = GenericViews;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				2083DD152BDAC800002B647B /* ScannerViewModel.swift in Sources */,
 				2083DD232BDAC9D3002B647B /* NoPermissionViewModel.swift in Sources */,
 				2083DD1C2BDAC902002B647B /* RoundedView.swift in Sources */,
+				2083DD2C2BDACB80002B647B /* IbanTextField.swift in Sources */,
 				2083DD1E2BDAC927002B647B /* View+Extensions.swift in Sources */,
 				2083DD192BDAC89A002B647B /* ScannerView.swift in Sources */,
 				2083DD252BDACA40002B647B /* IbanBottomSheet.swift in Sources */,
