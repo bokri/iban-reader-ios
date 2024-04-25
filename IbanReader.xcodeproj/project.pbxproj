@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCD92BDAC187002B647B /* IbanReaderApp.swift */; };
+		2083DCDC2BDAC187002B647B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCDB2BDAC187002B647B /* ContentView.swift */; };
+		2083DCDE2BDAC188002B647B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2083DCDD2BDAC188002B647B /* Assets.xcassets */; };
+		2083DCE22BDAC188002B647B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2083DCE12BDAC188002B647B /* Preview Assets.xcassets */; };
+		2083DCEC2BDAC188002B647B /* IbanReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCEB2BDAC188002B647B /* IbanReaderTests.swift */; };
+		2083DCF62BDAC188002B647B /* IbanReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCF52BDAC188002B647B /* IbanReaderUITests.swift */; };
+		2083DCF82BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2083DCE82BDAC188002B647B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2083DCCE2BDAC187002B647B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2083DCD52BDAC187002B647B;
+			remoteInfo = IbanReader;
+		};
+		2083DCF22BDAC188002B647B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2083DCCE2BDAC187002B647B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2083DCD52BDAC187002B647B;
+			remoteInfo = IbanReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2083DCD62BDAC187002B647B /* IbanReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IbanReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2083DCD92BDAC187002B647B /* IbanReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderApp.swift; sourceTree = "<group>"; };
+		2083DCDB2BDAC187002B647B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2083DCDD2BDAC188002B647B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2083DCDF2BDAC188002B647B /* IbanReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IbanReader.entitlements; sourceTree = "<group>"; };
+		2083DCE12BDAC188002B647B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2083DCE72BDAC188002B647B /* IbanReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2083DCEB2BDAC188002B647B /* IbanReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderTests.swift; sourceTree = "<group>"; };
+		2083DCF12BDAC188002B647B /* IbanReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2083DCF52BDAC188002B647B /* IbanReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderUITests.swift; sourceTree = "<group>"; };
+		2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2083DCD32BDAC187002B647B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCE42BDAC188002B647B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCEE2BDAC188002B647B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2083DCCD2BDAC187002B647B = {
+			isa = PBXGroup;
+			children = (
+				2083DCD82BDAC187002B647B /* IbanReader */,
+				2083DCEA2BDAC188002B647B /* IbanReaderTests */,
+				2083DCF42BDAC188002B647B /* IbanReaderUITests */,
+				2083DCD72BDAC187002B647B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2083DCD72BDAC187002B647B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCD62BDAC187002B647B /* IbanReader.app */,
+				2083DCE72BDAC188002B647B /* IbanReaderTests.xctest */,
+				2083DCF12BDAC188002B647B /* IbanReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2083DCD82BDAC187002B647B /* IbanReader */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCD92BDAC187002B647B /* IbanReaderApp.swift */,
+				2083DCDB2BDAC187002B647B /* ContentView.swift */,
+				2083DCDD2BDAC188002B647B /* Assets.xcassets */,
+				2083DCDF2BDAC188002B647B /* IbanReader.entitlements */,
+				2083DCE02BDAC188002B647B /* Preview Content */,
+			);
+			path = IbanReader;
+			sourceTree = "<group>";
+		};
+		2083DCE02BDAC188002B647B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCE12BDAC188002B647B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2083DCEA2BDAC188002B647B /* IbanReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCEB2BDAC188002B647B /* IbanReaderTests.swift */,
+			);
+			path = IbanReaderTests;
+			sourceTree = "<group>";
+		};
+		2083DCF42BDAC188002B647B /* IbanReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2083DCF52BDAC188002B647B /* IbanReaderUITests.swift */,
+				2083DCF72BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift */,
+			);
+			path = IbanReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2083DCD52BDAC187002B647B /* IbanReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2083DCFB2BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReader" */;
+			buildPhases = (
+				2083DCD22BDAC187002B647B /* Sources */,
+				2083DCD32BDAC187002B647B /* Frameworks */,
+				2083DCD42BDAC187002B647B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IbanReader;
+			productName = IbanReader;
+			productReference = 2083DCD62BDAC187002B647B /* IbanReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2083DCE62BDAC188002B647B /* IbanReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2083DCFE2BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReaderTests" */;
+			buildPhases = (
+				2083DCE32BDAC188002B647B /* Sources */,
+				2083DCE42BDAC188002B647B /* Frameworks */,
+				2083DCE52BDAC188002B647B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2083DCE92BDAC188002B647B /* PBXTargetDependency */,
+			);
+			name = IbanReaderTests;
+			productName = IbanReaderTests;
+			productReference = 2083DCE72BDAC188002B647B /* IbanReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2083DCF02BDAC188002B647B /* IbanReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2083DD012BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReaderUITests" */;
+			buildPhases = (
+				2083DCED2BDAC188002B647B /* Sources */,
+				2083DCEE2BDAC188002B647B /* Frameworks */,
+				2083DCEF2BDAC188002B647B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2083DCF32BDAC188002B647B /* PBXTargetDependency */,
+			);
+			name = IbanReaderUITests;
+			productName = IbanReaderUITests;
+			productReference = 2083DCF12BDAC188002B647B /* IbanReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2083DCCE2BDAC187002B647B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2083DCD52BDAC187002B647B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2083DCE62BDAC188002B647B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2083DCD52BDAC187002B647B;
+					};
+					2083DCF02BDAC188002B647B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2083DCD52BDAC187002B647B;
+					};
+				};
+			};
+			buildConfigurationList = 2083DCD12BDAC187002B647B /* Build configuration list for PBXProject "IbanReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2083DCCD2BDAC187002B647B;
+			productRefGroup = 2083DCD72BDAC187002B647B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2083DCD52BDAC187002B647B /* IbanReader */,
+				2083DCE62BDAC188002B647B /* IbanReaderTests */,
+				2083DCF02BDAC188002B647B /* IbanReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2083DCD42BDAC187002B647B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083DCE22BDAC188002B647B /* Preview Assets.xcassets in Resources */,
+				2083DCDE2BDAC188002B647B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCE52BDAC188002B647B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCEF2BDAC188002B647B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2083DCD22BDAC187002B647B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083DCDC2BDAC187002B647B /* ContentView.swift in Sources */,
+				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCE32BDAC188002B647B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083DCEC2BDAC188002B647B /* IbanReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2083DCED2BDAC188002B647B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2083DCF62BDAC188002B647B /* IbanReaderUITests.swift in Sources */,
+				2083DCF82BDAC188002B647B /* IbanReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2083DCE92BDAC188002B647B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2083DCD52BDAC187002B647B /* IbanReader */;
+			targetProxy = 2083DCE82BDAC188002B647B /* PBXContainerItemProxy */;
+		};
+		2083DCF32BDAC188002B647B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2083DCD52BDAC187002B647B /* IbanReader */;
+			targetProxy = 2083DCF22BDAC188002B647B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2083DCF92BDAC188002B647B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2083DCFA2BDAC188002B647B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2083DCFC2BDAC188002B647B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IbanReader/IbanReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IbanReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2083DCFD2BDAC188002B647B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IbanReader/IbanReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IbanReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2083DCFF2BDAC188002B647B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IbanReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IbanReader";
+			};
+			name = Debug;
+		};
+		2083DD002BDAC188002B647B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IbanReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IbanReader";
+			};
+			name = Release;
+		};
+		2083DD022BDAC188002B647B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IbanReader;
+			};
+			name = Debug;
+		};
+		2083DD032BDAC188002B647B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KNK9S79RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abokri.ibanreader.IbanReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IbanReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2083DCD12BDAC187002B647B /* Build configuration list for PBXProject "IbanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083DCF92BDAC188002B647B /* Debug */,
+				2083DCFA2BDAC188002B647B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2083DCFB2BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083DCFC2BDAC188002B647B /* Debug */,
+				2083DCFD2BDAC188002B647B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2083DCFE2BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083DCFF2BDAC188002B647B /* Debug */,
+				2083DD002BDAC188002B647B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2083DD012BDAC188002B647B /* Build configuration list for PBXNativeTarget "IbanReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2083DD022BDAC188002B647B /* Debug */,
+				2083DD032BDAC188002B647B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2083DCCE2BDAC187002B647B /* Project object */;
+}
