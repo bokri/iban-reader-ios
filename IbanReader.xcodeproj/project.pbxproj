@@ -17,6 +17,8 @@
 		2083DD072BDAC339002B647B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD062BDAC339002B647B /* String+Extensions.swift */; };
 		2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD082BDAC381002B647B /* UIView+Extensions.swift */; };
 		2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */; };
+		2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD0E2BDAC4EE002B647B /* GuidanceOverlayView.swift */; };
+		2083DD112BDAC615002B647B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2083DD102BDAC615002B647B /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2083DD062BDAC339002B647B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		2083DD082BDAC381002B647B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataScannerViewController+Extensions.swift"; sourceTree = "<group>"; };
+		2083DD0E2BDAC4EE002B647B /* GuidanceOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceOverlayView.swift; sourceTree = "<group>"; };
+		2083DD102BDAC615002B647B /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		2083DCD82BDAC187002B647B /* IbanReader */ = {
 			isa = PBXGroup;
 			children = (
+				2083DD0C2BDAC44C002B647B /* GenericTextScanner */,
 				2083DD052BDAC32A002B647B /* Extensions */,
 				2083DD042BDAC241002B647B /* Assets */,
 				2083DCD92BDAC187002B647B /* IbanReaderApp.swift */,
@@ -139,6 +144,7 @@
 		2083DD042BDAC241002B647B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				2083DD102BDAC615002B647B /* Localizable.xcstrings */,
 				2083DCDD2BDAC188002B647B /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -152,6 +158,22 @@
 				2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2083DD0C2BDAC44C002B647B /* GenericTextScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2083DD0D2BDAC461002B647B /* Views */,
+			);
+			path = GenericTextScanner;
+			sourceTree = "<group>";
+		};
+		2083DD0D2BDAC461002B647B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2083DD0E2BDAC4EE002B647B /* GuidanceOverlayView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +257,11 @@
 			};
 			buildConfigurationList = 2083DCD12BDAC187002B647B /* Build configuration list for PBXProject "IbanReader" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = fr;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				fr,
 			);
 			mainGroup = 2083DCCD2BDAC187002B647B;
 			productRefGroup = 2083DCD72BDAC187002B647B /* Products */;
@@ -260,6 +282,7 @@
 			files = (
 				2083DCE22BDAC188002B647B /* Preview Assets.xcassets in Resources */,
 				2083DCDE2BDAC188002B647B /* Assets.xcassets in Resources */,
+				2083DD112BDAC615002B647B /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +310,7 @@
 				2083DCDC2BDAC187002B647B /* ContentView.swift in Sources */,
 				2083DD072BDAC339002B647B /* String+Extensions.swift in Sources */,
 				2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */,
+				2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */,
 				2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */,
 				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
 			);
@@ -450,6 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IbanReader/Preview Content\"";
 				DEVELOPMENT_TEAM = 5KNK9S79RU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -488,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IbanReader/Preview Content\"";
 				DEVELOPMENT_TEAM = 5KNK9S79RU;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
