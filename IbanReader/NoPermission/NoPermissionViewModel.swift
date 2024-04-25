@@ -12,6 +12,8 @@ import SwiftUI
 class NoPermissionViewModel {
     /// Opens the app's settings.
     func openAppSettings() {
+        Logger.debug("Redirecting user to settings")
+        
         guard let settingsUrl = URL(string: UIApplication.openSettingsURLString),
               UIApplication.shared.canOpenURL(settingsUrl) else {
             return

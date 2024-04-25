@@ -31,6 +31,10 @@
 		2083DD282BDACAC8002B647B /* IbanScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD272BDACAC8002B647B /* IbanScannerView.swift */; };
 		2083DD2A2BDACAE2002B647B /* IbanScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD292BDACAE2002B647B /* IbanScannerViewModel.swift */; };
 		2083DD2C2BDACB80002B647B /* IbanTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD2B2BDACB80002B647B /* IbanTextField.swift */; };
+		2083DD302BDAE8B9002B647B /* LogDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD2F2BDAE8B9002B647B /* LogDestination.swift */; };
+		2083DD322BDAE8DE002B647B /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD312BDAE8DE002B647B /* ConsoleDestination.swift */; };
+		2083DD342BDAE8FA002B647B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD332BDAE8FA002B647B /* Logger.swift */; };
+		2083DD362BDAEAF9002B647B /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2083DD352BDAEAF9002B647B /* Sequence+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,10 @@
 		2083DD272BDACAC8002B647B /* IbanScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerView.swift; sourceTree = "<group>"; };
 		2083DD292BDACAE2002B647B /* IbanScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerViewModel.swift; sourceTree = "<group>"; };
 		2083DD2B2BDACB80002B647B /* IbanTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanTextField.swift; sourceTree = "<group>"; };
+		2083DD2F2BDAE8B9002B647B /* LogDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDestination.swift; sourceTree = "<group>"; };
+		2083DD312BDAE8DE002B647B /* ConsoleDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		2083DD332BDAE8FA002B647B /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		2083DD352BDAEAF9002B647B /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,7 @@
 		2083DCD82BDAC187002B647B /* IbanReader */ = {
 			isa = PBXGroup;
 			children = (
+				2083DD2E2BDAE892002B647B /* Logger */,
 				2083DD262BDACAA6002B647B /* IbanScanner */,
 				2083DD1F2BDAC99F002B647B /* NoPermission */,
 				2083DD1A2BDAC8E8002B647B /* GenericViews */,
@@ -184,6 +193,7 @@
 				2083DD082BDAC381002B647B /* UIView+Extensions.swift */,
 				2083DD0A2BDAC39E002B647B /* DataScannerViewController+Extensions.swift */,
 				2083DD1D2BDAC927002B647B /* View+Extensions.swift */,
+				2083DD352BDAEAF9002B647B /* Sequence+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -234,6 +244,16 @@
 				2083DD292BDACAE2002B647B /* IbanScannerViewModel.swift */,
 			);
 			path = IbanScanner;
+			sourceTree = "<group>";
+		};
+		2083DD2E2BDAE892002B647B /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				2083DD2F2BDAE8B9002B647B /* LogDestination.swift */,
+				2083DD312BDAE8DE002B647B /* ConsoleDestination.swift */,
+				2083DD332BDAE8FA002B647B /* Logger.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +391,8 @@
 				2083DD072BDAC339002B647B /* String+Extensions.swift in Sources */,
 				2083DD0B2BDAC39E002B647B /* DataScannerViewController+Extensions.swift in Sources */,
 				2083DD0F2BDAC4EE002B647B /* GuidanceOverlayView.swift in Sources */,
+				2083DD342BDAE8FA002B647B /* Logger.swift in Sources */,
+				2083DD322BDAE8DE002B647B /* ConsoleDestination.swift in Sources */,
 				2083DD092BDAC381002B647B /* UIView+Extensions.swift in Sources */,
 				2083DD212BDAC9B4002B647B /* NoPermissionView.swift in Sources */,
 				2083DCDA2BDAC187002B647B /* IbanReaderApp.swift in Sources */,
@@ -383,8 +405,10 @@
 				2083DD2C2BDACB80002B647B /* IbanTextField.swift in Sources */,
 				2083DD1E2BDAC927002B647B /* View+Extensions.swift in Sources */,
 				2083DD192BDAC89A002B647B /* ScannerView.swift in Sources */,
+				2083DD362BDAEAF9002B647B /* Sequence+Extensions.swift in Sources */,
 				2083DD252BDACA40002B647B /* IbanBottomSheet.swift in Sources */,
 				2083DD282BDACAC8002B647B /* IbanScannerView.swift in Sources */,
+				2083DD302BDAE8B9002B647B /* LogDestination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

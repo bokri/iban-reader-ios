@@ -13,6 +13,9 @@ class ScannerViewModel {
     /// Weak reference to the scanner view protocol delegate.
     weak var delegate: ScannerViewProtocol?
     
+    /// Parameter that tells if the IBA? Scanner is actively reading
+    var isScanning: Bool = false
+    
     /// Sets up the delegate for handling scanner results.
     /// - Parameter delegate: Scanner view protocol delegate.
     func setupDelegate(delegate: ScannerViewProtocol?) {
@@ -23,7 +26,8 @@ class ScannerViewModel {
     /// - Parameter stream: Async stream containing recognized items.
     func updateViaAsyncStream(stream: AsyncStream<[RecognizedItem]>) async {
         for await newItems: [RecognizedItem] in stream {
-            for textualItem in newItems.compactMap({ item in
+            
+            let uniqueItems = newItems.compactMap({ item in
                 switch item {
                 case .text(let text):
                     if !text.transcript.isEmpty {
@@ -34,7 +38,9 @@ class ScannerViewModel {
                 default:
                     return nil
                 }
-            }) {
+            }).unique()
+            
+            for textualItem in uniqueItems {
                 await delegate?.onScannerResult(result: textualItem)
             }
         }

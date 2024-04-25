@@ -63,6 +63,8 @@ struct ScannerView: UIViewControllerRepresentable {
         /// - Parameter result: The scanned result.
         func onScannerResult(result: String) {
             if parent.isResultValid(result) {
+                Logger.debug("Scanned and Validated \(result)")
+                
                 parent.scanResult = result
                 parent.shouldScan = false
             }

@@ -47,6 +47,7 @@ class ScannerViewController: UIViewController {
         super.viewWillAppear(animated)
         if dataScanner.parent == nil {
             installDataScanner()
+
             startScanning()
         }
     }
@@ -102,20 +103,24 @@ class ScannerViewController: UIViewController {
     
     /// Starts the scanning process.
     func startScanning() {
-        do {
-            try dataScanner.startScanning()
-            
-            Task {
-                await viewModel.updateViaAsyncStream(stream: dataScanner.recognizedItems)
+        if viewModel.isScanning == false {
+            do {
+                viewModel.isScanning = true
+                try dataScanner.startScanning()
+                
+                Task {
+                    await viewModel.updateViaAsyncStream(stream: dataScanner.recognizedItems)
+                }
+                
+            } catch {
+                Logger.error("Error: Unable to start IBAN scan - \(error)")
             }
-            
-        } catch {
-            print("** Error: Unable to start scan - \(error)")
         }
     }
     
     /// Stops the scanning process.
     func stopScanning() {
+        viewModel.isScanning = false
         dataScanner.stopScanning()
     }
 }
