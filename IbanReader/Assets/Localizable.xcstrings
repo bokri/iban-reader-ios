@@ -12,7 +12,6 @@
       }
     },
     "add_beneficiary" : {
-      "extractionState" : "stale",
       "localizations" : {
         "fr" : {
           "stringUnit" : {
@@ -44,9 +43,6 @@
         }
       }
     },
-    "Hello, world!" : {
-
-    },
     "help" : {
       "localizations" : {
         "fr" : {
@@ -58,7 +54,6 @@
       }
     },
     "iban_error" : {
-      "extractionState" : "stale",
       "localizations" : {
         "fr" : {
           "stringUnit" : {
@@ -69,7 +64,6 @@
       }
     },
     "iban_placeholder" : {
-      "extractionState" : "stale",
       "localizations" : {
         "fr" : {
           "stringUnit" : {
@@ -110,7 +104,6 @@
       }
     },
     "scan_cta" : {
-      "extractionState" : "stale",
       "localizations" : {
         "fr" : {
           "stringUnit" : {
@@ -121,7 +114,6 @@
       }
     },
     "scan_import_iban_title" : {
-      "extractionState" : "stale",
       "localizations" : {
         "fr" : {
           "stringUnit" : {
