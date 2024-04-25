@@ -77,3 +77,7 @@ struct IBanScannerView: View {
         .toolbarRole(.editor)
     }
 }
+
+#Preview {
+    IBanScannerView(viewModel: IbanScannerViewModel(onResultFinished: { _ in }))
+}

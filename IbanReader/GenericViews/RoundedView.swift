@@ -47,3 +47,34 @@ struct RoundedView: View {
         .cornerRadius(20)
     }
 }
+
+#Preview {
+    VStack {
+        RoundedView(iconName: "gear",
+                    title: "Aller aux paramètres",
+                    isInversed: true,
+                    isSmall: true)
+        
+        RoundedView(iconName: "gear",
+                    title: "Aller aux paramètres",
+                    isInversed: false,
+                    isSmall: true)
+        
+        RoundedView(iconName: "gear",
+                    title: "Aller aux paramètres",
+                    isInversed: true,
+                    isSmall: false)
+        
+        RoundedView(iconName: nil,
+                    title: "Valider",
+                    isInversed: true,
+                    isSmall: false)
+        
+        RoundedView(iconName: nil,
+                    title: "Recommencer",
+                    isInversed: false,
+                    isSmall: false)
+        
+    }
+    .padding()
+}

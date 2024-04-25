@@ -41,3 +41,8 @@ struct NoPermissionView: View {
         .padding()
     }
 }
+
+#Preview {
+    NoPermissionView(viewModel: NoPermissionViewModel())
+    .padding()
+}

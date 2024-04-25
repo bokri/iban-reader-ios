@@ -39,7 +39,7 @@ struct IbanBottomSheet: View {
                             title: String(localized: "validate_cta"),
                             isInversed: true,
                             isSmall: false)
-                    .padding()
+                .padding()
             }
             
             Button(action: negativeAction) {
@@ -51,4 +51,8 @@ struct IbanBottomSheet: View {
             }
         }
     }
+}
+
+#Preview {
+    IbanBottomSheet(iban: "FR14 2004 1010 0505 0001 3M02 606", positiveAction: {}, negativeAction: {})
 }
