@@ -6,30 +6,74 @@
 //
 
 import XCTest
+@testable import IbanReader
 
-final class IbanReaderTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class StringExtensionsTests: XCTestCase {
+    
+    func testPassesMod97Check_ValidIBAN_ReturnsTrue() {
+        // Arrange
+        let validIBAN = "FR7630001007941234567890185"
+        
+        // Act
+        let result = validIBAN.passesMod97Check()
+        
+        // Assert
+        XCTAssertTrue(result)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testPassesMod97Check_InvalidIBAN_ReturnsFalse() {
+        // Arrange
+        let invalidIBAN = "FR7630001007941234567890186"
+        
+        // Act
+        let result = invalidIBAN.passesMod97Check()
+        
+        // Assert
+        XCTAssertFalse(result)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testIsFrenchIBAN_ValidIBAN_ReturnsTrue() {
+        // Arrange
+        let validIBAN = "FR7630001007941234567890185"
+        
+        // Act
+        let result = validIBAN.isFrenchIBAN()
+        
+        // Assert
+        XCTAssertTrue(result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testIsFrenchIBAN_InvalidIBAN_ReturnsFalse() {
+        // Arrange
+        let invalidIBAN = "FR7630001007941234567890186"
+        
+        // Act
+        let result = invalidIBAN.isFrenchIBAN()
+        
+        // Assert
+        XCTAssertFalse(result)
     }
-
+    
+    func testFormatAsFrenchIBAN_ValidInput_ReturnsFormattedIBAN() {
+        // Arrange
+        let input = "FR7630001007941234567890185"
+        
+        // Act
+        let formattedIBAN = input.formatAsFrenchIBAN()
+        
+        // Assert
+        XCTAssertEqual(formattedIBAN, "FR76 3000 1007 9412 3456 7890 185")
+    }
+    
+    func testFormatAsFrenchIBAN_InvalidInput_ReturnsNil() {
+        // Arrange
+        let input = "FR763000100794123456789018" // Invalid length
+        
+        // Act
+        let formattedIBAN = input.formatAsFrenchIBAN()
+        
+        // Assert
+        XCTAssertNil(formattedIBAN)
+    }
 }
+
