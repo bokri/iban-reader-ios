@@ -1,12 +1,21 @@
 # IBAN Reader App
 
+![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 IBAN Reader App is a SwiftUI application that allows users to scan and recognize IBAN (International Bank Account Number) codes.
 
 ## Features
 
-- **IBAN Scanner**: Scan IBAN codes using the device's camera.
-- **IBAN Validation**: Validate scanned IBAN codes using the MOD 97 algorithm.
+- **IBAN Scanner**: Scan IBAN codes using the device's camera with Vision Kit.
+- **IBAN Validation**: Validate IBAN codes using the MOD 97 algorithm.
 - **French IBAN Formatting**: Format IBAN codes according to the French IBAN format.
+
+## Screenshots
+
+![Screenshot 1](Screenshots/1.PNG) ![Screenshot 2](Screenshots/2.PNG) ![Screenshot 3](Screenshots/3.PNG)  
+![Screenshot 4](Screenshots/4.PNG) ![Screenshot 5](Screenshots/5.PNG) ![Screenshot 6](Screenshots/6.PNG)
+
 
 ## Installation
 
@@ -28,3 +37,12 @@ To install and run the Text Recognition App on your local machine, follow these 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+
+## Technologies Used
+
+- SwiftUI
+- Vision Kit
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

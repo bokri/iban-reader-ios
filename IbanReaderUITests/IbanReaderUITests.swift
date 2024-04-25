@@ -45,4 +45,3 @@ extension XCUIApplication {
         return staticTexts["Scanner"].exists
     }
 }
-
